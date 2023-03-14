@@ -78,15 +78,18 @@ public void exercicio5() {
 
     }
     public void exercicio6() {
-        
-        System.out.println("Digite 1 Para masculino, 2 Feminino");
-        double sexo = sc.nextDouble();
-        
+
         System.out.println("Digite sua altura");
         double altura = sc.nextDouble();
-        double pesoMasculina = (72.7*altura)-58;
-        double pesofeminina = (62.1*altura)-44.7;
-
+        System.out.println("Digite 2 Para masculino, 1 Feminino");
+        double sexo = sc.nextDouble();
+        double pesoIdeal;
+        if (sexo==1){
+            pesoIdeal = 62.1*altura-44.7;
+        }else{
+            pesoIdeal = 72.7*altura-58;
+        }
+         System.out.println("O peso ideal em kg é" +pesoIdeal);
 
 
 
