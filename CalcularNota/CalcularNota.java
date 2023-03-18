@@ -2,8 +2,6 @@ package CalcularNota;
 
 import java.util.Scanner;
 
-import javax.security.auth.x500.X500Principal;
-
 public class CalcularNota {
     public void notaFrequencia() {
         Scanner sc = new Scanner(System.in);
