@@ -75,6 +75,7 @@ public void exercicio5() {
         System.out.println("Numero Digitados na ordem:" +c+b+a);
         
     }else System.out.println("Não use numeros repetidos");
+    
 
     }
     public void exercicio6() {
