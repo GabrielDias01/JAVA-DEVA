@@ -73,30 +73,20 @@ public class AtividadeFormativa {
     }
 
     public void exercicio3() {
-        int contPar = 0;
-        int tamanhoVetor = rd.nextInt(100, 1000);
-        int vetor[] = new int[tamanhoVetor];
-        int contImpar = 0;
-        for (int i = 0; i < tamanhoVetor; i++) {
-            if (tamanhoVetor[i] % 2 == 0) {
-                contPar++;
-            } else {
-                contImpar++;
+        int tamanhoVetor =rd.nextInt(1000);
+        int vetor []= new int [tamanhoVetor];
+        for (int i = 0; i < vetor.length; i++) {
+            vetor[i]=rd.nextInt(100)+1;
+        }
+        for (int i = 0; i < vetor.length; i++) {
+            if(vetor[i]%2==0){
+                System.out.println(vetor[i]);
             }
         }
-        int nPar[] = new int[contPar];
-        int nImpar[] = new int[contImpar];
-        contImpar = 0;
-        contPar = 0;
-        for (int i = 0; i < tamanhoVetor; i++) {
-            if (tamanhoVetor[i] % 2 == 0) {
-                nPar[contPar] = tamanhoVetor[i];
-                contPar++;
-            } else {
-                nImpar[contImpar] = tamanhoVetor[i];
-                contImpar++;
+        for (int i = 0; i < vetor.length; i++) {
+            if(vetor[i]%2==1){
+                System.out.println(vetor[i]);
             }
-
         }
     }
 }
