@@ -1,4 +1,4 @@
-package Sa2ProjetoBanco.Conta;
+package Sa2ProjetoBanco;
 
 public class ContaPJ extends Conta{
     //atributo
