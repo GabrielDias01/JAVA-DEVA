@@ -6,6 +6,7 @@ public class App {
 
     public static void main(String[] args) {
         // criar os vetores de objetos
+        // criar os vetores de objetos
         ContaPF contasPf[] = new ContaPF[10];
         ContaPJ contasPj[] = new ContaPJ[10];
         // int usadas(separadas)
